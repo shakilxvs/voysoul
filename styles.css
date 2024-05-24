@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, #ffffff, #e0f7fa);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.header .logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #ffeb3b;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #e0f7fa;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.header nav ul li a {
+    color: #e0f7fa;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+.announcement-bar {
+    background: #ffeb3b;
+    color: #333;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.about, .expertise, .services, .reviews, .contact {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about h2, .expertise h2, .services h2, .reviews h2, .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #00796b;
+}
+
+.about p, .contact p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    width: 60%;
+    color: #333;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    border: 5px solid #00796b;
+    transition: transform 0.3s;
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.expertise-item {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.expertise-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.expertise-item i {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 1rem;
+}
+
+.expertise-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.reviews .review {
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.reviews .review p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.reviews .stars {
+    color: #ffeb3b;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+    color: #00796b;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffeb3b;
+}
+
+.footer {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer .freelance-links a {
+    color: #ffeb3b;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.footer .freelance-links a:hover {
+    color: #fff;
+}
+
+button, a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #ffeb3b;
+    color: #00796b;
+}
